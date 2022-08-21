@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/62897976/185772777-0c365187-1a40-4bb5-
 # 📄 Pagina de Login/FlameBox 📁 
 ![status-finalizado](https://user-images.githubusercontent.com/62897976/185768561-589083e1-f18f-480b-9709-0ca24acf9c6d.svg)
 
-> Resumo do Projeto: Criado layout de uma pagina de login administrativa, de forma minimalista e responsive utilizando bootstrap 5 e javascript.
+> Resumo do Projeto: Criado layout de uma página de login administrativa, de forma minimalista e responsiva utilizando bootstrap 5 e javascript.
 
 ## 🎯 Implementações/Features
 

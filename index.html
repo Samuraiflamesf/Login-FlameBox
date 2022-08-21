@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="_assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="_assets/css/fonts.css">
+  <link rel="shortcut icon" href="_assets/icons/FlameBox.ico">
+  <link rel="stylesheet" href="_assets/css/style.css">
+  <title>Pagina de Login</title>
+</head>
+
+<body>
+  <header class="flex-row">
+    <div class="alert alert-warning d-none" id="btn_alert">
+      <strong>Obrigado!</strong> Por chegar até aqui. Porém esse site não possui Back-End
+      <button type="button" class="btn-close" onclick="alert_close()"></button>
+    </div>
+  </header>
+  <section id="area-login" class="p-4 d-flex">
+    <div class="container m-5">
+      <div class="row justify-content-center align-content-center">
+        <h1 class="mt-4 mb-4 fs-3 fw-bold text-center "> Entre com sua senha</h1>
+        <!--Linha do Usuario-->
+        <div class="row d-flex justify-content-md-start">
+          <div class="col-3">
+            <img src="_components/img/user.jpg" alt="user" class="img-fluid w-100 rounded-circle ">
+          </div>
+          <div class="col m-auto mx-0">
+            <p class="h4 fs-6" w>Conta de Negócios </p>
+            <p class="h3 fs-5">Bernardo Nogueira</p>
+          </div>
+        </div>
+        <!--Parte da formulario-->
+        <div class="row">
+          <form class="mt-4 align-middle">
+            <!--Parte da senha-->
+            <div class="row">
+              <div class="input-group">
+                <span class="input-group-text " id="code_locker"><i class="fa-solid fa-lock"></i></span>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="btn btn-outline-secondary" type="button" onclick="viewPassWord()">
+                  <i class="fa-solid fa-eye" id="vision_on"></i>
+                  <i class="fa-solid fa-eye-slash d-none" id="vison_off"></i>
+                </button>
+              </div>
+            </div>
+            <!--Parte da senha-->
+            <div class="row mt-3">
+              <div class="col">
+                <div class="form-check form-switch justify-content-center align-content-center align-items-center ">
+                  <input class="form-check-input " type="checkbox" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Permanecer conectado</label>
+                </div>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-primary w-100 h-100" onclick="alert_btn()">
+                  Continue
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--Parte de recriar senha-->
+        <div class="row">
+          <div class="col">
+            <button href="#" class="btn mt-3 w-100" onclick="alert_btn()">
+              Reset de senha
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+
+  <script src="https://kit.fontawesome.com/b04ef94895.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="_assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="_assets/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="_assets/js/script.js"></script>
+</body>
+
+</html>

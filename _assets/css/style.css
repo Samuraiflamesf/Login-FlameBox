@@ -1,0 +1,25 @@
+body {
+  background-color: #132b500c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#area-login {
+  background-color: #fff;
+  color: #132b50;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 20px;
+  font-family: poppinslight;
+  font-weight: 200;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#area-login h1 {
+  font-family: poppinsmedium;
+  font-weight: 400;
+}
+.h3 {
+  font-family: poppinssemibold;
+}
